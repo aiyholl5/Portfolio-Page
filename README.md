@@ -36,7 +36,7 @@ THEN the password is either displayed in an alert or written to the page
 
 Go to link at: (https://aiyholl5.github.io/Portfolio-Page/)
 
-![gif of functionality] (images\Portfolio page.gif)
+![gif of functionality] (https://github.com/aiyholl5/Portfolio-Page/blob/main/images/Portfolio%20page.gif)
 
 ## Credits
 MIT License
