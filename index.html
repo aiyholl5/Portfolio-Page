@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Portfolio page</title>
+</head>
+<body>
+
+    <!--Header top of page-->
+    <header>
+        <!--Nav Bar-->
+        <nav>
+            <input type="checkbox" id="check"/>
+            <label for="check" class="checkbtn">
+            </label>
+            
+            <a>
+                <div class="logo">
+                      <img src="images\logo.jpg" class="logo design">
+                </div>
+
+                <ul>
+                    <li><a href="#home" class="nav__link active">Home</a></li>
+                    <li><a href="#services" class="nav__link">My Services</a></li>
+                    <li><a href="#about" class="nav__link">About Me</a></li>
+                    <li><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </a>   
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="home_sec" id="home">
+        <h1 class="section__title section__title--home_sec">
+            Hi, I am <strong>Aiyana Holloman</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--home_sec">Insert Text Here</p>
+        <img src="images\self_picture.jpg" alt="A selfie of Aiyana smiling" class="home_sec__img">
+    </section>
+
+    <!--My Services-->
+    <section class="services" id="services">
+        <h2 class="section_title section__title--services">Insert Text Here</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design & Development</h3>
+                <p> Doing things and designing</p>
+            </div> <!--Close Service-->
+
+            <div class="service">
+                <h3>More Stuff I do </h3>
+                <p>Doing the thing</p>
+            </div> <!--Close Service-->
+
+            <div class="service">
+                <h3>Even more things that I do</h3>
+                <p>All the things</p>
+            </div> <!--Close Service-->
+        </div> <!--Close Services-->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section_title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Entering some text that describes me in these paragraphs.</p>
+
+        <div class="about-me__body img_text">
+            <p>Hey! This is who I am</p>
+            <p>This is me.</p>
+        </div>
+        
+        
+        <img src="images\20221202_164858.jpg" alt="A picture of a dog with a fortune on its head" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work"></p>
+
+        <div class="portfolio">
+            <a href="https://aiyholl5.github.io/Password-Generator/" class="portfolio__link" target="_blank">
+                <img src="images\password_generator.jpg" alt="link to password generator" class="portfolio__img" >
+            </a>
+
+            <a href="#" class="portfolio__link" target="_blank">
+                <img src="images\password_generator.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__link" target="_blank">
+                <img src="images\password_generator.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+          <hr style="height:2px;border-width:0;color:gray;background-color:white">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">My Work</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Notice</a></li>
+            </ul>
+            <p class="copyright">Company Name © DeepAI 2021</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+  
+</html>
+  
