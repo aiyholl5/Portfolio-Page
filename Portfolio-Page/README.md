@@ -32,11 +32,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Usage
 
-Go to link at: https://aiyholl5.github.io/Portfolio-Page/
+Go to link at: (https://aiyholl5.github.io/Portfolio-Page/)
 
-gif of functionality: https://github.com/aiyholl5/Portfolio-Page/blob/main/images/Portfolio%20page.gif
-
-Link to deployed site: https://aiyholl5.github.io/Portfolio-Page/
+![gif of functionality] (https://github.com/aiyholl5/Portfolio-Page/blob/main/images/Portfolio%20page.gif)
 
 ## Credits
 MIT License
